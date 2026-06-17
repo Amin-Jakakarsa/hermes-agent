@@ -1,0 +1,73 @@
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+auth.json
+auth.lock
+channel_directory.json
+config.yaml
+
+# Runtime databases / state
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.lock
+*.pid
+gateway_state.json
+
+# Logs / history
+logs/
+*.log
+.hermes_history
+
+# Cache
+cache/
+.cache/
+*cache*/
+*cache*.json
+*cache*.db
+audio_cache/
+image_cache/
+models_dev_cache.json
+provider_models_cache.json
+ollama_cloud_models_cache.json
+.skills_prompt_snapshot.json
+.update_check
+
+# Sessions / private runtime
+sessions/
+pairing/
+memories/
+sandboxes/
+cron/
+
+# Large installed runtime files
+bin/
+node/
+hermes-agent/
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+
+# Build/archive/temp
+dist/
+build/
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Backup/temp/editor
+config.yaml.bak*
+*.bak
+*.backup
+*.swp
+*.swo
+.*.swp
+.DS_Store
+Thumbs.db
